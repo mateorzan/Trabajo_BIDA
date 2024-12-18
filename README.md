@@ -18,8 +18,12 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
    - Contiene bases de datos y documentos PDF relacionados con diferentes temas.
    - **Archivos**:
      - 🗄️ `chroma.sqlite3`: Base de datos Chroma específica de los documentos PDF.
+3. **📂 RAG_dockerizado / Intnto de dockerizacion fallido.**
 
----
+   - **Archivos**:
+     - Dockerfile
+     - requirements.txt
+     - script.py
 
 ### 📄 Archivos principales
 
@@ -28,6 +32,7 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
    - `RAG_con_GUI.ipynb`: Implementación de la extracción y generación de información con una interfaz gráfica.
    - `RAG_pdf_Castellano.ipynb`: Script para el procesamiento de documentos PDF en español.
    - `RAG_web_Ingles.ipynb`: Script para la extracción de información desde la web en inglés.
+   - `notebook_rag_atlas.ipynb`: Script para el procesamiento de documentos PDF en español desde atlas.
 2. **📂 Documentos PDF**
 
    - `archivo_descargado_NBATAST.pdf`: Documento descargado relacionado con la NBA.
@@ -35,8 +40,6 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
 3. **📜 Archivo de licencia**
 
    - `LICENSE`: Contiene la información sobre la licencia del proyecto.
-
----
 
 ## 🚀  Uso del proyecto
 
