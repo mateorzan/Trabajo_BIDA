@@ -1,6 +1,6 @@
 # 📝 Trabajo_BIDA | Proyecto RAG (Retrieve and Generate)
 
-Este proyecto está diseñado para trabajar con la extracción y generación de información utilizando bases de datos Chroma y archivos PDF. La estructura de archivos y carpetas se organiza de la siguiente manera:
+Este proyecto está diseñado para trabajar con la extracción y generación de información utilizando bases de datos Chroma y archivos PDF y datos Web. La estructura de archivos y carpetas se organiza de la siguiente manera:
 
 ---
 
@@ -8,13 +8,14 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
 
 ### 📂 Directorios principales
 
-1. **📂 Nba**  
-   - Contiene bases de datos relacionadas con información de la NBA.  
+1. **📂 Nba**
+
+   - Contiene bases de datos relacionadas con información de la NBA.
    - **Archivos**:
      - 🗄️ `chroma.sqlite3`: Base de datos Chroma específica de este conjunto.
+2. **📂 Pdfs**
 
-2. **📂 Pdfs**  
-   - Contiene bases de datos y documentos PDF relacionados con diferentes temas.  
+   - Contiene bases de datos y documentos PDF relacionados con diferentes temas.
    - **Archivos**:
      - 🗄️ `chroma.sqlite3`: Base de datos Chroma específica de los documentos PDF.
 
@@ -22,16 +23,17 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
 
 ### 📄 Archivos principales
 
-1. **📒 Jupyter Notebooks**  
-   - `RAG_con_GUI.ipynb`: Implementación de la extracción y generación de información con una interfaz gráfica.  
-   - `RAG_pdf_Castellano.ipynb`: Script para el procesamiento de documentos PDF en español.  
+1. **📒 Jupyter Notebooks**
+
+   - `RAG_con_GUI.ipynb`: Implementación de la extracción y generación de información con una interfaz gráfica.
+   - `RAG_pdf_Castellano.ipynb`: Script para el procesamiento de documentos PDF en español.
    - `RAG_web_Ingles.ipynb`: Script para la extracción de información desde la web en inglés.
+2. **📂 Documentos PDF**
 
-2. **📂 Documentos PDF**  
-   - `archivo_descargado_NBATAST.pdf`: Documento descargado relacionado con la NBA.  
+   - `archivo_descargado_NBATAST.pdf`: Documento descargado relacionado con la NBA.
    - `archivo_descargado_jugones.pdf`: Documento descargado relacionado con contenido deportivo.
+3. **📜 Archivo de licencia**
 
-3. **📜 Archivo de licencia**  
    - `LICENSE`: Contiene la información sobre la licencia del proyecto.
 
 ---
@@ -46,7 +48,8 @@ Este proyecto está diseñado para trabajar con la extracción y generación de 
 ### Configuración
 
 1. Clona este repositorio en tu máquina local.
+2. Disponer de una instacia de Docker con una LLM ollama, en este caso se utiliza llama3.2.
 
-### Ejecucion
+### Ejecución
 
- - Ejecutar las celdas de los diferentes notebooks
+- Ejecutar las celdas de los diferentes notebooks.
